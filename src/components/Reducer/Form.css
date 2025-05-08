@@ -1,0 +1,23 @@
+.form-container {
+    display: flex;
+    flex-direction: column; /* Arrange items in a column */
+    gap: 10px; /* Add space between form elements */
+    max-width: 300px; /* Optional: Set a max width for the form */
+    margin: 0 auto; /* Optional: Center the form horizontally */
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column; /* Arrange each group vertically */
+  }
+  
+  input {
+    padding: 8px;
+    margin-bottom: 8px;
+  }
+  
+  button {
+    padding: 8px;
+    margin-right: 5px; /* Adds some space between buttons */
+  }
+  
